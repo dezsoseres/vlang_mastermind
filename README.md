@@ -1,4 +1,6 @@
-# Mastermind / vlang example
+# Mastermind v0.1
+
+the famous logic game vlang examle implementation.
 
 ## Prerequisite
 package ui
