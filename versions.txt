@@ -1,7 +1,7 @@
 vlang mastermind v0.1
 
 v0.1 full functional mastermind game, text is Hungarian, can be compiled on windows or linux, on android it was not successful
-
+     can be compiled with vlang 0.4.12
 
 
 
