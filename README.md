@@ -1,6 +1,6 @@
 # Mastermind / vlang example
 
-##Prerequisite
+## Prerequisite
 package ui
 
 install:
@@ -9,7 +9,7 @@ v install ui
 chk:
 v list
 
-##build
+## build
 
 on windows:
 build.bat
