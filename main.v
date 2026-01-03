@@ -16,6 +16,7 @@ const ex = 40
 const ey = 40  
 const game_max_time = 300
 const toplistafile  = "toplista.txt"
+const prgversion = "v0.11"
       
 @[heap]
 struct App {
@@ -40,6 +41,9 @@ struct Result {
 }
 
 fn main() {
+   println("")
+   println("vlang mastermind $prgversion")
+
    mut app   := &App{ }
 
    app.toplista << Result{'Bela',10}

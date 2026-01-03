@@ -422,6 +422,7 @@ fn (mut app App) btn_newgame_click(b voidptr) {
 }
 
 fn btn_exit_click(b voidptr) {
+   println("bye")
    exit(0)
 }
 
