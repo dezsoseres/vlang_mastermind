@@ -43,7 +43,14 @@ fn (mut app App) main_window() &ui.Window {
 //   mode: .resizable
 //   mode: .fullscreen
 //   mode: .max_size
-   mode: .normal_size
+//   mode: .normal_size
+//   mode: .fixed_size   // doesnt work
+   resizable: false    // on linux
+//   on_resize: fn (mut win ui.Window, w int, h int) {  // unfortunately windows resize doesnt work on windows
+//	if w != win_width || h != win_height {
+//		win.resize(win_width, win_height)
+//	}
+//   }
    on_init: app.win_init
    on_key_down: app.on_keypress
    children: [

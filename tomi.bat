@@ -7,7 +7,7 @@ for /f "tokens=1-3 delims=. " %%a in ('date /t') do (
 )
 set DATE_YYYYMMDD=%yyyy%%mm%%dd%
 echo %DATE_YYYYMMDD%
-c:\"program files"\seresd\winrar\rar a -r -s videobrowser%DATE_YYYYMMDD%
+c:\"program files"\seresd\winrar\rar a -r -s vlang_mastermind%DATE_YYYYMMDD%
 
 
 
