@@ -1,8 +1,8 @@
 vlang mastermind v0.1
 
-v0.1 full functional mastermind game, text is Hungarian, can be compiled on windows or linux, on android it was not successful
-     can be compiled with vlang 0.4.12,0.5 where gg should be used instead of gx, ui package must be installed
-
+v0.1  full functional mastermind game, text is Hungarian, can be compiled on windows or linux, on android it was not successful
+      can be compiled with vlang 0.4.12 where gg should be used instead of gx, ui package must be installed
+v0.11 can be compiled with vlang 0.5, windows positioning fix
 
 
 
