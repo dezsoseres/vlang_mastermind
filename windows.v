@@ -10,7 +10,7 @@ fn (mut app App) subwin_start() &ui.SubWindow {
    sw_start := ui.subwindow(
       id: 'sw_start'
       layout: ui.column(
-         width: 300
+         width: 260
          height: 100
          margin_: 10
          spacing: 10
@@ -48,8 +48,8 @@ fn (mut app App) main_window() &ui.Window {
    on_key_down: app.on_keypress
    children: [
       ui.column(   // below each others
-         margin_: 15
-         spacing: 10
+         margin_: 13
+         spacing: 5
          widths: ui.stretch
          heights: ui.compact
          children: [
@@ -178,7 +178,7 @@ fn (mut app App) subwin_toplist(newscorestr string) &ui.SubWindow {
    sw_toplist := ui.subwindow(
       id: 'sw_toplist'
 //      on_init: app.win_init_toplist
-      x : 25
+      x : 15
       y : 40
       layout: ui.column(
          alignments: ui.HorizontalAlignments{

@@ -11,7 +11,7 @@ import time
 
 
 const win_width  = 400
-const win_height = 500
+const win_height = 480
 const ex = 40      
 const ey = 40  
 const game_max_time = 300
